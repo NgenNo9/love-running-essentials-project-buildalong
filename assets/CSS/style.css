@@ -27,6 +27,7 @@ header a {
 
 #logo {
     font-size: 280%;
+    margin-left: 30px;
 }
 
 #menu {
@@ -114,4 +115,32 @@ header a {
     bottom: 30px;
     right: 150px;
     position: absolute;
+}
+
+/* Club Ethos */
+
+#club-ethos {
+    height: 600px;
+}
+
+.about {
+    display: flex;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    background-color: silver;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    background-color: green;
 }
