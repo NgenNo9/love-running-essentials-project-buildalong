@@ -127,10 +127,15 @@ header a {
     display: flex;
 }
 
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
 #left-about {
     padding-top: 30px;
     width: 33%;
-    background-color: blue;
 }
 
 #right-about {
@@ -143,4 +148,21 @@ header a {
     padding-top: 30px;
     width: 33%;
     background-color: green;
+}
+
+.left-about-heading {
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    float: right;
+}
+
+.right-about-heading {
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    float: left;
+    text-align: right;
 }
