@@ -200,4 +200,19 @@ img {
     background-position: center;
     width: 100%;
     overflow: hidden;
+    display: flex;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    padding: 30px 0 0 10px;
+    border: #fff 2px solid;
+}
+
+#times h2 {
+    color: #fafafa;
 }
