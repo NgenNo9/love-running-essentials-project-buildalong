@@ -253,6 +253,8 @@ footer {
 
 /* Media Queries */
 
+/* For screens smaller than 1200px wide */
+
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
@@ -276,10 +278,26 @@ footer {
     }
 
     #right-about {
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     hr {
         display: none;
+    }
+}
+
+/* For medium sized screens from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    .header {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #logo {
+        margin: 0;
     }
 }
