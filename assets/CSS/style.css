@@ -250,3 +250,36 @@ footer {
 #photos > img {
     width: 100%;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px;
+        margin: 0;
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        padding: 0;
+    }
+
+    #right-about {
+        margin-top: 30px;
+    }
+
+    hr {
+        display: none;
+    }
+}
