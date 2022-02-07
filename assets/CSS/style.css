@@ -216,3 +216,24 @@ img {
 #times h2 {
     color: #fafafa;
 }
+
+/* Social Media Links */
+
+#social ul {
+    display: flex;
+    font-size: 280%;
+    padding: 75px 0;
+    /* align-items: center; */
+    background-color: #3a3a3a;
+}
+
+#social li {
+    margin: 0 75px;
+    list-style: none;
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.social-media-icons {
+    margin: 0 auto;
+}
