@@ -25,20 +25,21 @@
     </header>
 
     <!-- Form -->
-    <section>
+    <section id="form-page">
         <div id="form">
-            <form action="https://formdump.codeinstitute.net/" method="POST">
-                <h2>Let's get you signed up!</h2>
+            <form action="https://formdump.codeinstitute.net/" method="POST" class="signup">
+                <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
 
                 <label for="first-name">First Name</label>
-                <input type="text" id="first-name" name="first_name" required>
+                <input type="text" id="first-name" name="first_name" required class="text-input">
                 
                 <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" name="last_name" required>
+                <input type="text" id="last-name" name="last_name" required class="text-input">
                 
                 <label for="email">Email Address</label>
-                <input type="email" name="email_address" id="email" required>
+                <input type="email" name="email_address" id="email" required class="text-input">
                 
+                <div class="run-pref">
                 <label for="road">Road</label>
                 <input type="radio" name="running_preferences" id="road" required>
                 
@@ -47,9 +48,9 @@
                 
                 <label for="both">Both</label>
                 <input type="radio" name="running_preferences" id="both">
-                
-                <button type="submit">Let's Run!</button>
+                </div>
 
+                <button type="submit" class="btn">Let's Run!</button>
             </form>
         </div>
     </section>
