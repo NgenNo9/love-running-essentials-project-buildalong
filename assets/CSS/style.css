@@ -306,6 +306,10 @@ footer {
     background-color: #fafafa;
 }
 
+.radio {
+    margin: 0 15px 0 5px;
+}
+
 /* Media Queries */
 
 /* For screens smaller than 1200px wide */
